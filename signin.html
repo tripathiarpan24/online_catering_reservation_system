@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signin</title>
+    <link rel="stylesheet" href="loginpage.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+</head>
+<body>
+    <div class="signin">
+        <img src="food-logo.png" alt="">
+        <h2>Sign in</h2>
+        <form id="signin-form">
+            
+            <input type="text" id="username" class="input-box" placeholder="username"><br>
+            <input type="email" id= "email" class="input-box" placeholder="email id"><br>
+            <input type="password" id="password" class="input-box" placeholder="passsword"><br>
+            <a href="#" class="forgetpass" onclick="forgotPass()">forget password?</a>
+        
+            <button type="submit" id="signIn" class="signin-btn">Sign in</button>
+        
+            <hr>
+            <p class="or" style="color: rgb(255, 0, 64);">Or sign in with</p>
+             
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a><br>
+           
+            <p style="color: rgb(255, 0, 64);">Don't have an account? <a href="signup.html" style="color: rgb(255, 0, 64);">Create account</a></p>
+               
+            
+        </form>
+    </div>
+   
+   <script type="module" src="signin.js"> </script>
+</body>
+</html>
