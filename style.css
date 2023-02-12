@@ -38,7 +38,7 @@ a{
 .title p{
     font-size: 40px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: indianred;
+    color: limegreen;
     margin: 0;
 }
 .border{
@@ -47,18 +47,18 @@ a{
     margin: 3px 0;
     margin-bottom: 30px;
     border-radius: 2px;
-    background: coral;
+    background: lightyellow;
 }
 
 .menu-item a{
     display: block;
     text-decoration: none;
-    font-size: 20px;
     padding: 8px 30px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 12px 0;
-    color: rgb(128, 129, 129);
+    color: rgb(94, 43, 43);
     font-weight: 300;
+    font-size: 20px;   
+    font-family: 'Aclonica', sans-serif;
     
 }
 .menu-item a:hover{
@@ -89,11 +89,11 @@ a{
 }
 #map{
     font-size: 25px;
-    color: red;
+    color: limegreen;
 }
 .your-address{
-    border: 1px solid indianred;
-    color: indianred;
+    border: 1px solid limegreen;
+    color: limegreen;
     padding: 5px 10px;
     border-radius: 5px;
     width: 150px;
@@ -124,15 +124,15 @@ a{
 .util i,.user i{
     font-size: 18px;
     margin: 0 16px;
-    border: 1px solid crimson;
+    border: 1px solid limegreen;
     padding: 8px 16px;
-    color: crimson;
+    color: limegreen;
     border-radius: 20px;
     cursor: pointer;
 }
 .util i:active{
     color: white;
-    background: crimson;
+    background: limegreen;
 }
 #biryani,#paneer,#chicken,#vegetable,#chinese,#south-indian,#desserts{
     margin-top: 40px;   
@@ -143,12 +143,13 @@ a{
 #chinese #item-card,#south-indian #item-card,#desserts #item-card{
     background: rgb(221, 243, 243);
 }
-#category-name,.item-menu{
+#category-name,#category-list{
     margin: 10px;
     font-size: 35px;   
-    color: lightsalmon;
+    color: darkcyan;
     font-family: 'Aclonica', sans-serif;
 }
+
 #item-card{
     width: 180px;
     height: 220px;
@@ -224,7 +225,7 @@ color: white;
 #cart-title{
     font-size: 35px;
     margin: 0;
-    color: indianred;
+    color: limegreen;
 }
 #cart-page table{
     width: 100%;
@@ -239,7 +240,7 @@ color: white;
 .cart-btn{
     outline: none;
     border: none;
-    background: crimson;
+    background: lightpink;
     color: white;
     padding: 10px 25px;
     border-radius: 20px;
@@ -286,7 +287,7 @@ color: white;
 }
 #delievery{
     font-size: 20px;
-    color: limegreen;
+    color: rebeccapurple;
 }
 #cart{
     background: whitesmoke;
@@ -298,7 +299,7 @@ color: white;
     margin: 0;
     font-size: 30px;
     margin-top: 40px;
-    color: indianred;
+    color: darkcyan;
     background: whitesmoke;
     
 }
@@ -377,7 +378,7 @@ color: white;
     .logo-box .your-address{
         font-size: 18px;
         width: 150px;
-        color: crimson;
+        color: greenyellow;
         text-transform: capitalize;
         white-space: nowrap;
         overflow: hidden;
@@ -385,7 +386,7 @@ color: white;
     }
     .top-menu{
 
-        color: indianred;
+        color: limegreen;
     }
     .top-menu i{
         font-size: 20px;
@@ -396,7 +397,7 @@ color: white;
     
     .m-cart-toggle{
         color: white;
-        background: lightcoral;
+        background: lime;
     }
     .category-header{
         display: flex;
@@ -450,7 +451,7 @@ color: white;
         border-top: 1px solid rgb(219, 219, 219);
     }
     .mobile-footer{
-        color: indianred;
+        color: limegreen;
         text-transform: uppercase;
         font-size: 16px;
         position: static;
@@ -499,12 +500,12 @@ color: white;
         color: lightcoral;
         padding: 5px 10px;
         margin: 0;
-        border:  1px solid lightcoral;
+        border:  1px solid limegreen;
         float: right;
     }
     .cart-btn{
         font-size: 14px;
-        background: lightcoral;
+        background: limegreen;
         padding: 8px 15px;
         margin: auto;
     }
